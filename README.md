@@ -328,8 +328,6 @@ Por exemplo, se a função recebe os parâmetros `['React', 'Jest', 'HTML', 'CSS
 </details>
 
 
-# Requisitos Bônus
-
 ## 11 - Crie uma função de número de telefone
 
 <details>
@@ -392,53 +390,5 @@ Exemplo: o retorno de `triangleCheck(10, 14, 8)` deverá ser `true`.
 
 - A função `triangleCheck` deve retornar o valor `true` quando a medida de qualquer um dos lados seja menor que a soma das medidas dos outros dois lados e maior que o valor absoluto da diferença entre os outros dois lados.
 
-
-</details>
-
-## 13 - Crie uma função de boas vindas ao Bar da Trybe!
-
-<details>
-  <summary>
-Implemente a função `hydrate` que recebe uma string e retorna a sugestão de quantos copos de água você deve beber.
-
-  </summary> <br />
-
-
-```javascript
-// String recebida:
-  '1 cerveja'
-
-// String retornada:
-  '1 copo de água'
-```
-
-```
-// String recebida:
-  '1 cachaça, 5 cervejas e 1 copo de vinho'
-
-// String retornada:
-  '7 copos de água'
-```
-
-```
-// String recebida:
-  '1 cachaça, 5 cervejas e 1 copo de vinho'
-
-// String retornada:
-  '7 copos de água'
-```
-
-- Para simplificar, considere que a string **sempre** terá o formato *quantidade (em número) + tipo da bebida*;
-
-- O número na frente de cada bebida deve estar entre 1 e 9.
-
-**De olho na dica 👀:** pesquise por algo similar a `get all integers inside a string js`.
-
-**O que será testado:**
-  
-- A função `hydrate` deve retornar a sugestão de quantos copos de água deve-se beber ao receber uma string.
-
-
-</details>
 
 </details>
