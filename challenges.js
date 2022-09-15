@@ -121,8 +121,3 @@ function generatePhoneNumber() {
 function triangleCheck() {
   // seu código aqui
 }
-
-// Desafio 13
-function hydrate() {
-  // seu código aqui
-}
